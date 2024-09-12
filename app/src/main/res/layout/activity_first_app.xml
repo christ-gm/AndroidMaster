@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_app"
     tools:context=".firstapp.FirstAppActivity">
 
     <TextView
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Escribe tu nombre"
         android:textSize="35sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +26,7 @@
         android:layout_width="300dp"
         android:singleLine="true"
         android:maxLines="1"
+        android:background="@color/white"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         app:layout_constraintBottom_toTopOf="@+id/btnStart"
@@ -36,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/purple_500"
-        android:text="Pulsame"
+        android:text="OK"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
