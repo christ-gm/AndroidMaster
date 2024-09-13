@@ -19,5 +19,9 @@
     <string name="title_obeso">Obeso</string>
     <string name="description_obeso">Estás muy por encima de lo optimo para tu peso y altura</string>
 
+    <!--TO DO-->
+    <string name="todo_title">Bienvenido</string>
+    <string name="todo_categories">Categorias</string>
+
 
 </resources>
